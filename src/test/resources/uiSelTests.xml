@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteApi">
+    <test name="DashboardTest">
+        <classes>
+            <class name="com.merchantesolutions.ui.tests.DashboardTest"/>
+        </classes>
+    </test>
+    <test name="NewUserTest">
+        <classes>
+            <class name="com.merchantesolutions.ui.tests.NewUserTest"/>
+        </classes>
+    </test>
+    <test name="UsersTest">
+        <classes>
+            <class name="com.merchantesolutions.ui.tests.UsersTest"/>
+        </classes>
+    </test>
+</suite>
